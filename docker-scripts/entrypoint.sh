@@ -3,7 +3,7 @@
 # Wait until prisma is avaliable, and download schemas
 ./docker-scripts/wait-for-it.sh prisma:4466 -- prisma deploy
 
-graphql get-schema --project prisma
+# graphql get-schema --project prisma
 
 if [ $DEBUG = 1 ]; then
 
